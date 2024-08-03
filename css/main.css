@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Prompt:ital,wght@1,300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.first {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../the-town-bg-01.jpg);
+    background-size: 100% 110%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin: 0 4em;
+    justify-content: space-between;
+}
+
+.navbar .left {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .right {
+    flex-basis: 70%;
+    display: flex;
+    justify-content: end;
+}
+
+.first a {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4d4de2;
+}
+
+.navbar .right a {
+    margin: 0 0.5em;
+}
+
+span {
+    color: #4d4de2;
+    font-weight: bolder;
+}
+
+.first .mid {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .mid h1 {
+    color: white;
+    font-size: 3em;
+    margin: 0.3em;
+}
+
+.first .mid p {
+    margin: 0.5em;
+    color: white;
+    font-size: 1em;
+}
+.br {
+    height: 4em;
+
+}
+/* end first section */
+
+/* start second section */
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.one-section {
+    display: flex;
+    align-items: center;
+    margin: 0 4em;
+}
+
+.one-section .intro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    color: #3838c2;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.one-section .intro p {
+    margin-bottom: 0.5em;
+    color: #777;
+    line-height: 1.8;
+    font-size: 1.1em;
+    width: 70%;
+}
+
+.one-section .intro .one{
+    font-weight: bolder;
+    color: #777;
+}
+
+.one-section .intro a {
+    color: blue;
+    font-weight: bolder;
+}
+
+.one-section .intro button {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 12px;
+    padding: 0.5em 0.9em;
+    font-size: 1em;
+    border: none;
+    margin-top: 1em;
+}
+
+.one-section .intro button:hover {
+    background-color: #3838c7;
+    cursor: pointer;
+}
+
+.second .bottom-section {
+    display: flex;
+    align-items: center;
+    padding: 3em 0;
+    margin-top: 3em;
+    background: linear-gradient(180deg,#e3987f,#5c648c);
+}
+.second .bottom-section .b-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.second .bottom-section .b-1 h2 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+.second .bottom-section .b-1 a {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #4343d3;
+    cursor: pointer;
+}
+
+.second .bottom-section .b-1 a:hover {
+    color: #0d6efd;
+}
+
+.second .bottom-section .b-1 p {
+    font-size: 1em;
+    line-height: 1.2;
+    color: #cdc1c1;
+    text-align: center;
+    width: 90%;
+}
+
+/* end second section */
+
+/* start image section */
+.images {
+    display: flex;
+    flex-direction: column;
+}
+.images .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.images p {
+    width: 35%;
+    color: #777;
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+}
+.images .photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.images .photos img {
+    width: 200px;
+    height: 225px;
+    cursor: pointer;
+    margin: 0.25em;
+}
+
+/* end image section */
+/* start contact */
+.contact {
+    background: url(../the-town-bg-02.jpg);
+    display: flex;
+    background-size: 100% 120%;
+    flex-direction: column;
+}
+
+.contact .container {
+    margin: 2em 5em;
+}
+
+.contact h1 {
+    color: #fff;
+}
+
+.line {
+    width: 20%;
+    height: 10px;
+    padding: 0.1em;
+    background-color: #fff;
+}
+
+.contact .one p {
+    margin-top: 2em;
+    line-height: 2.5em;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.contact .two {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+h3 {
+    color: #fff;
+    font-size: 1.1em;
+}
+.contact .three {
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+}
+.contact .three .right {
+    display: flex;
+}
+
+
+.contact .three .right input{
+    background-color: transparent;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    color: #fff;
+    margin-right: 1em;
+}
+
+.contact .three .right ::placeholder {
+    color: white;
+    font-size: 1.1em;
+}
+
+.contact .three button {
+    padding: 0.4em 1em;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: #4d4de2;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.end {
+    text-align: center;
+    margin-top: 8em;
+    color: #fff;
+    font-size: 1.12em;
+}
+
+/* end contact */
+
+
+@media screen and (min-width: 992px) {
+    .navbar .box-1 {
+        display: none;
+    }
+
+}
+@media screen and (min-width: 992px) and (max-width: 1045) {
+    .second .bottom-section {
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar .right a{
+        display: none;
+    }
+    .navbar .box-1 {
+        flex-basis: 70%;
+        display: flex;
+        justify-content: end;    
+    }
+    .navbar .box-1 button {
+        width: 15%;
+        padding: 1.5em;
+        background-color: transparent;
+        border: 1px solid #c78c8c;
+        border-radius: 8px;
+    }
+    .navbar .box-1 button hr {
+        padding: 0.1em;
+        background-color: black;
+    }
+    .one-section {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .one-section .img {
+        display: flex;
+        justify-content: center;
+    }
+    .one-section .intro {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        margin-top: 3em;
+    }
+    .one-section .intro p {
+        text-align: center;
+    }
+    .second .bottom-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact .one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    hr {
+        width: 100%;
+    }
+
+    .contact .two {
+        display: flex;
+        flex-direction: column;
+        height: 8em;
+}
+
+.contact .three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10em;
+}
+
+}
